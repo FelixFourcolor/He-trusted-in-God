@@ -151,7 +151,7 @@
 		{
 			"name": "viola",
 			"instrument": "harp",
-			"dynamic": 2,
+			"dynamic": 3,
 			"notes": [
 				"| 1", { "name": "g 2b", "dynamic": 4 },
 				"||2",
@@ -193,7 +193,7 @@
 				"| 38", "f_ 2b", "r 2b.", "f_", "bb_", "bb_",
 				"| 39", "a_ .", "g_ 1", "f_ 2b",
 				"||40", "r", "f_", "f_", "g_", "a_", "bb_", "c", "d",
-				"| 41", { "dynamic": 3 }, "eb 2b.", "eb", { "dynamic": 4 }, "d .", "d 1", "a_", { "dynamic": 2 }, "a_",
+				"| 41", "eb 2b.", "eb", { "dynamic": 4 }, "d .", "d 1", "a_", { "dynamic": 2 }, "a_",
 				"| 42", "bb_ 2b", "c", "c", "d", "d", "c", "bb_",
 				"| 43", "a_", "a_", "d", "c", "bb_", "bb_", "g", "eb",
 				"| 44", "c", "d 1", "eb 1", "f", "d", "bb_", "c 1", "d 1", "eb", "c",
@@ -212,7 +212,7 @@
 				"| 57", "g_", "d", "c", "b_", "g 2b", "f 2b",
 				"| 58", "eb", "g", "f", "eb", "d 2b", "c", "d",
 				"| 59", "bb_ 2b", "c 2b", "f", "f", "g", "eb",
-				"| 60", "f 2b.", { "dynamic": 3 }, "eb", { "dynamic": 4 }, "d .", "d 1", "d 2b",
+				"| 60", "f 2b.", "eb", { "dynamic": 4 }, "d .", "d 1", "d 2b",
 				"| 61", { "tempo": 2, "dynamic": 2, "beats": 4 }, "r", "d", "eb", { "dynamic": 3 }, "eb",
 				"| 62", { "dynamic": 4 }, "d 2b.", "d",
 				"| 63", "eb",
