@@ -27,8 +27,8 @@
 				"| 16", "fs 2b", "g", "a", "bb", "g", "c^", "c^",
 				"| 17", "f", "f", "bb", "bb", "eb 2b.", "eb",
 				"| 18", "d 5b", "d", "d^", "c^",
-				"| 19", "b .", "a 1", "g .", "b 1", "c^", "g", "c^", "bb",
-				"| 20", "ab .", "g 1", "f", "ab", "bb 2b", "bb_ 2b",
+				"| 19", "b .", "a 1", "g .", { "dynamic": 0 }, "b 1", "c^", { "dynamic": 1 }, "g", "c^", "bb",
+				"| 20", "ab .", "g 1", "f", { "dynamic": 0 }, "ab", "bb 2b", { "dynamic": 1 }, "bb_ 2b",
 				"| 21", "c 4",
 				"||22", "r 2b", "f 2b", "bb_ 2b", "c", "c",
 				"| 23", "d 2b.", "d", "eb", "d", "eb", "c",
@@ -69,8 +69,8 @@
 				"| 58", "eb", "c", "f 2b.", "eb 1", "d 1", "eb", "f",
 				"| 59", "g", "eb", "ab 2b.", "g", "g", "g",
 				"| 60", "f 2b.", "f", "f .", "f 1", "f 2b",
-				"| 61", { "delay": 2, "beat": 4 }, "r", "f", "eb", { "dynamic": 2 }, "c",
-				"| 62", { "dynamic": 3 }, "g 2b", "g_ 2b",
+				"| 61", { "delay": 2 }, "r 2b", "f 2b", "eb 2b", { "dynamic": 2 }, "c 2b",
+				"| 62", { "dynamic": 3 }, "g 4b", "g_ 4b",
 				"| 63", { "dynamic": 4 }, "c",
 				"||"
 			]
@@ -141,8 +141,8 @@
 				"| 58", "eb", "c", "f 2b.", "eb 1", "d 1", "eb", "f",
 				"| 59", "g", "eb", "ab 2b.", "g", "g", "g",
 				"| 60", "f 2b.", { "dynamic": 4 }, "f", "f .", "f 1", "f 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "f", "eb", { "dynamic": 3 }, "c",
-				"| 62", { "dynamic": 4 }, "g 2b", "g_ 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "f 2b", "eb 2b", { "dynamic": 3 }, "c 2b",
+				"| 62", { "dynamic": 4 }, "g 4b", "g_ 4b",
 				"| 63", "c",
 				"||"
 			]
@@ -213,8 +213,8 @@
 				"| 58", "eb", "g", "f", "eb", "d 2b", "c", "d",
 				"| 59", "bb_ 2b", "c 2b", "f", "f", "g", "eb",
 				"| 60", "f 2b.", { "dynamic": 3 }, "eb", "d .", "d 1", "d 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "d", "eb", { "dynamic": 3 }, "eb",
-				"| 62", { "dynamic": 4 }, "d 2b", "d 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "d 2b", "eb 2b", { "dynamic": 3 }, "eb 2b",
+				"| 62", { "dynamic": 4 }, "d 4b", "d 4b",
 				"| 63", "eb",
 				"||"
 			]
@@ -285,8 +285,8 @@
 				"| 58", "bb_", "eb", "ab 2b", "g 2b.", "f",
 				"| 59", "eb 2b", "f 2b", "bb 2b.", "bb",
 				"| 60", "ab 2b.", { "dynamic": 3 }, "ab", "g .", "g 1", "g 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "g", "g", { "dynamic": 3 }, "g",
-				"| 62", { "dynamic": 4 }, "g 2b", "g 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "g 2b", "g 2b", { "dynamic": 3 }, "g 2b",
+				"| 62", { "dynamic": 4 }, "g 4b", "g 4b",
 				"| 63", "g",
 				"||"
 			]
@@ -357,8 +357,8 @@
 				"| 58", "g_", "eb", "d", "c", "b_", "g_", "g 2b",
 				"| 59", "r 2b", "f", "eb", "d", "bb_", "eb 2b",
 				"| 60", "r 2b", "d", { "dynamic": 3 }, "c", "b_ .", "b_ 1", "b_ 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "b_", "c", { "dynamic": 3 }, "c",
-				"| 62", { "dynamic": 4 }, "c 2b", "b_ 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "b_ 2b", "c 2b", { "dynamic": 3 }, "c 2b",
+				"| 62", { "dynamic": 4 }, "c 4b", "b_ 4b",
 				"| 63", "c",
 				"||"
 			]
@@ -429,8 +429,8 @@
 				"| 58", "eb", "c", "f 2b.", "eb 1", "d 1", "eb", "f",
 				"| 59", "g", "eb", "ab 2b.", { "dynamic": 3 }, "g", "g", "g",
 				"| 60", "f 2b.", "f", { "dynamic": 4 }, "f .", "f 1", "f 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "f", { "dynamic": 3 }, "eb", "c",
-				"| 62", { "dynamic": 4 }, "g 2b", "g_ 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "f 2b", { "dynamic": 3 }, "eb 2b", "c 2b",
+				"| 62", { "dynamic": 4 }, "g 4b", "g_ 4b",
 				"| 63", "c",
 				"||"
 			]
@@ -501,8 +501,8 @@
 				"| 58", "eb", "g", "f", "eb", "d 2b", "c", "d",
 				"| 59", "bb_ 2b", "c 2b", "f", "f", "g", "eb",
 				"| 60", "f 2b.", "eb", { "dynamic": 3 }, "d .", "d 1", "d 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "d", "eb", { "dynamic": 3 }, "eb",
-				"| 62", { "dynamic": 4 }, "d 2b", "d 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "d 2b", "eb 2b", { "dynamic": 3 }, "eb 2b",
+				"| 62", { "dynamic": 4 }, "d 4b", "d 4b",
 				"| 63", "eb",
 				"||"
 			]
@@ -573,8 +573,8 @@
 				"| 58", "bb_", "eb", "ab 2b", "g 2b.", "f",
 				"| 59", "eb 2b", "f 2b", "bb 2b.", "bb",
 				"| 60", "ab 2b.", "ab", { "dynamic": 3 }, "g .", "g 1", "g 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "g", "g", { "dynamic": 3 }, "g",
-				"| 62", { "dynamic": 4 }, "g 2b", "g 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "g 2b", "g 2b", { "dynamic": 3 }, "g 2b",
+				"| 62", { "dynamic": 4 }, "g 4b", "g 4b",
 				"| 63", "g",
 				"||"
 			]
@@ -645,8 +645,8 @@
 				"| 58", "g_", "eb", "d", "c", "b_", "g_", "g 2b",
 				"| 59", "r 2b", "f", "eb", "d", "bb_", "eb 2b",
 				"| 60", "r 2b", "d", "c", { "dynamic": 3 }, "b_ .", "b_ 1", "b_ 2b",
-				"| 61", { "delay": 2, "dynamic": 2, "beat": 4 }, "r", "b_", "c", { "dynamic": 3 }, "c",
-				"| 62", { "dynamic": 4 }, "c 2b", "b_ 2b",
+				"| 61", { "delay": 2, "dynamic": 2 }, "r 2b", "b_ 2b", "c 2b", { "dynamic": 3 }, "c 2b",
+				"| 62", { "dynamic": 4 }, "c 4b", "b_ 4b",
 				"| 63", "c",
 				"||"
 			]
