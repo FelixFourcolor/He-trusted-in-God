@@ -4,8 +4,8 @@ Play Handel's Messiah - "He trusted in God" in Minecraft's noteblocks.
 ## Requirements
 Minecraft java 1.18+
 
-## Installation 
-Download and copy the World folder into your saves. Or,
+## Easy install 
+Copy the World folder into your saves. Or,
 
 ## Build from source
 Build requirements: 
@@ -32,7 +32,7 @@ cd He-trusted-in-God
 python noteblock-generator/generate.py src.json [path to your minecraft world]
 ```
 
-Checkout [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation which explains how this program works. Also checkout [Amulet-Core](https://github.com/Amulet-Team/Amulet-Core) which this program heavily relies upon.
+Checkout [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation which explains how this program works.
 
 ## License
 Do whatever you want.
