@@ -29,10 +29,10 @@ git clone --recurse-submodules https://github.com/FelixFourcolor/He-trusted-in-G
 cd He-trusted-in-God
 
 # generate
-python noteblock-generator/generate.py src.json [path to your minecraft world]
+python noteblock-generator/generate.py src.json [path to your minecraft world] --clear
 ```
 
-Checkout [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation which explains how this program works.
+Checkout [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation which explains how this program works and more build options.
 
 ## License
 Do whatever you want.
