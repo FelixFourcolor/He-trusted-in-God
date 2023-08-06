@@ -21,15 +21,14 @@ Then, on the command line:
 
 ```
 # install dependencies
-pip install --upgrade pip
-pip install amulet-core
+pip install noteblock-generator
 
 # clone and enter this repo
-git clone --recurse-submodules https://github.com/FelixFourcolor/He-trusted-in-God.git
+git clone https://github.com/FelixFourcolor/He-trusted-in-God.git
 cd He-trusted-in-God
 
 # generate
-python noteblock-generator/generate.py src.json [path to your minecraft world] --clear
+noteblock-generator src.json [path to your minecraft world] --clear
 ```
 
 Checkout [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation which explains how this program works and more build options.
