@@ -8,10 +8,9 @@ Noteblock capabilities are quite limited, so lots of compromises had to be made.
 
 Key: E-flat minor (transposed up 3 semitones from original)
 
-Tempo: quarter note = 150 bpm (about 30 bpm faster than a typical performance).
+Tempo: quarter note = 150 bpm (about 25% faster than a typical performance)
 
 Instrumentation:
-* Basso continuo is omitted.
 * Bassoon: transposed down 1 octave, played by didgeridoo
 * Double bass: played by bass
 * Viola: played by harp
