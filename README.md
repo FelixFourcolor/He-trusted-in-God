@@ -4,7 +4,7 @@ Handel's Messiah - "He trusted in God" arranged for Minecraft's noteblocks.
 Recording: https://www.youtube.com/watch?v=jQLKgxHWafE
 
 ## Arrangement
-Noteblock capabilities are quite limited, so lots of compromises had to be made.
+Noteblock's capabilities are quite limited, so lots of compromises had to be made.
 
 Key: E-flat minor (transposed up 3 semitones from original)
 
@@ -21,6 +21,8 @@ Instrumentation:
 * Alto: played by bit
 * soprano: transposed up 1 octave, played by bell
 
+A very few notes are replaced by their octave equivalents in order to fit the their instrument's range.
+
 ## Play requirement
 Minecraft java 1.18+
 
@@ -29,8 +31,6 @@ Copy the `World` folder into your saves.
 
 To obtain the folder, you may clone the repo or use third-party tools such as [Down-Git](https://minhaskamal.github.io/DownGit) to download it.
 
-Or,
-
 ## Build from source
 ### Build requirements
 * python 3.10+
@@ -38,7 +38,7 @@ Or,
 * git (optional)
 
 ### Overview of the build process
-The structure is built automatically using a python program called `noteblock-generator` (available on PyPI). The program takes `src.json` (included in this repo) which defines the composition, and generates the structure inside an existing Minecraft world.
+The structure is auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes `src.json` which defines the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
@@ -60,9 +60,6 @@ The structure is built automatically using a python program called `noteblock-ge
     ```
     noteblock-generator [path to src.json] [path to minecraft world] --clear
     ```
-
-
-Checkout [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation which explains how the program works and more build options.
 
 ## License
 Do whatever you want.
