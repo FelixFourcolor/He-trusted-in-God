@@ -21,7 +21,7 @@ Instrumentation:
 * Alto: played by bit
 * soprano: transposed up 1 octave, played by bell
 
-A very few notes are replaced by their octave equivalents in order to fit the their instrument's range.
+A few notes are (hopefully inconspicuously) changed in order to fit the their instrument's range.
 
 ## Play requirement
 Minecraft java 1.18+
@@ -50,7 +50,7 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
 
 2. Obtain `src.json`. You may clone the repo or download just that file.
 
-3. Obtain a Minecraft java 1.18+ world. You may use an existing world or create a new one. 
+3. Obtain a world in Minecraft java 1.18+. You may use an existing world or create a new one. 
 
     For maximum performance, create a new world in creative mode, peaceful difficulty, superflat type, and no generated structures.
 
