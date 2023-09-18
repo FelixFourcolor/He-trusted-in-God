@@ -21,17 +21,17 @@ Tranposed up 3 semitones to better fit noteblock's ranges. However, a few notes 
 Minecraft java 1.18+
 
 ## Easy install 
-Copy the `World` folder into your saves. 
+Copy the [World](https://github.com/FelixFourcolor/He-trusted-in-God/tree/main/World) folder into your saves. 
 
 To obtain the folder, you may clone the repo or use third-party tools such as [Down-Git](https://minhaskamal.github.io/DownGit) to download it.
 
 ## Build from source
 ### Build requirements
-* python 3.10+
+* python >= 3.10, < 3.12
 * pip
 
 ### Overview of the build process
-The structure is auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes `src.json` which defines the composition, and generates the structure inside an existing Minecraft world.
+The structure is auto-generated using [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator). The program takes [src.json](https://github.com/FelixFourcolor/He-trusted-in-God/blob/main/src.json) which defines the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
@@ -41,7 +41,7 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
     ```
     Configure your PATH so that `noteblock-generator` is executable on the command line.
 
-2. Obtain `src.json`. You may clone the repo or download just that file.
+2. Obtain [src.json](https://github.com/FelixFourcolor/He-trusted-in-God/blob/main/src.json). You may clone the repo or download just that file.
 
 3. Obtain a world in Minecraft java 1.18+. You may use your existing world or create a new one. 
 
