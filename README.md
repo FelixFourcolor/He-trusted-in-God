@@ -50,6 +50,6 @@ The structure is auto-generated using [noteblock-generator](https://github.com/F
 
 4. If you are inside the world, exit it first. Then,
     ```
-    noteblock-generator --clear [path to src.json] [path to minecraft world]
+    noteblock-generator [path to src.json] [path to minecraft world]
     ```
     (See [noteblock-generator](https://github.com/FelixFourcolor/noteblock-generator)'s documentation for explanation and more build options.)
