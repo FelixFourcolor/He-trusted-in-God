@@ -1,7 +1,7 @@
 # He trusted in God
 "He trusted in God" in Handel's Messiah, arranged for Minecraft's noteblocks.
 
-Recording: https://www.youtube.com/watch?v=jQLKgxHWafE
+Recording: https://youtu.be/jQLKgxHWafE
 
 ## Arrangement
 Instrumentation:
@@ -18,8 +18,7 @@ Instrumentation:
 Tranposed up 3 semitones to better fit noteblock's ranges. However, a few notes still do not fit, then they are either transposed up/down an octave or played by a different instrument, depending on which sounds better to me.
 
 ## Play requirements
-Minecraft java 1.19+. 
-
+Minecraft Java 1.20+ to play the pre-built world; 1.19+ if you build from source.
 
 Go to Music & Sounds settings and turn on Directional Audio. Optionally, turn down Master Volume to about 70% to 80%, otherwise it might be a bit too loud (but of course this depends on your speakers).
 
@@ -31,7 +30,7 @@ To obtain the folder, you may clone the repo or use third-party tools such as [D
 
 ## Build from source
 ### Build requirements
-* python 3.10+
+* python 3.10-3.12
 * pip
 
 ### Overview of the build process
@@ -47,16 +46,10 @@ The structure is auto-generated using [noteblock-generator](https://pypi.org/pro
 
 2. Obtain [src.json](https://github.com/FelixFourcolor/He-trusted-in-God/blob/main/src.json). You may clone the repo or download just that file.
 
-3. Obtain a world in Minecraft java 1.19+. You may use your existing world or create a new one.
+3. Obtain a world in Minecraft Java 1.19+. You may use your existing world or create a new one.
 
-
-4. If you are inside the world, exit it first. Then,
+4. Run:
     ```
     noteblock-generator [path to src.json] [path to minecraft world]
     ```
-    See [noteblock-generator](https://pypi.org/project/noteblock-generator/) for explanation and more build options.
-
-## License
-While Minecraft remains Mojang's property and is subjected to their terms of service, the source code used to generate this structure is given to the public domain. You are free to use it however you want, as long as such usage complies with Minecraft's terms of service, without any restrictions from my end.
-
-See [LICENSE](https://github.com/FelixFourcolor/He-trusted-in-God/blob/main/LICENSE) for more details.
+    See [noteblock-generator](https://pypi.org/project/noteblock-generator/) for more build options.
