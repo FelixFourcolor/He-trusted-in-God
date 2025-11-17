@@ -34,13 +34,13 @@ To obtain the folder, you may clone the repo or use third-party tools such as [D
 * pip
 
 ### Overview of the build process
-The structure is auto-generated using [noteblock-generator](https://pypi.org/project/noteblock-generator/). The program takes [src.json](https://github.com/FelixFourcolor/He-trusted-in-God/blob/main/src.json) which defines the composition, and generates the structure inside an existing Minecraft world.
+The structure is auto-generated using [noteblock-generator](https://pypi.org/project/noteblock-generator/0.2.1). The program takes [src.json](https://github.com/FelixFourcolor/He-trusted-in-God/blob/main/src.json) which defines the composition, and generates the structure inside an existing Minecraft world.
 
 ### Step-by-step guide
 
-1. Install the latest version of [noteblock-generator](https://pypi.org/project/noteblock-generator/):
-    ```
-    pip install --upgrade noteblock-generator
+1. Install noteblock-generator 0.2.1 (must be this exact version):
+    ```sh
+    pip install "noteblock-generator==0.2.1"
     ```
     Configure your PATH so that `noteblock-generator` is executable on the command line.
 
@@ -49,7 +49,7 @@ The structure is auto-generated using [noteblock-generator](https://pypi.org/pro
 3. Obtain a world in Minecraft Java 1.19+. You may use your existing world or create a new one.
 
 4. Run:
-    ```
+    ```sh
     noteblock-generator [path to src.json] [path to minecraft world]
     ```
-    See [noteblock-generator](https://pypi.org/project/noteblock-generator/) for more build options.
+    See [noteblock-generator](https://pypi.org/project/noteblock-generator/0.2.1) for more build options.
